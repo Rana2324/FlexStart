@@ -65,6 +65,9 @@ header {
   color: var(--primaryColor);
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .logo img {
 }
@@ -161,6 +164,7 @@ nav ul li a:hover {
 }
 .banner_details_area .banner_btn:hover i {
   transform: translateX(5px);
+  transition: 0.3s;
 }
 .inner_banner .banner_img_area {
   display: flex;
