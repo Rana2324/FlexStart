@@ -45,6 +45,7 @@ p {
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 /* Header Style */
 header {
@@ -114,6 +115,7 @@ nav ul li a:hover {
   background-repeat: no-repeat;
   background-position: left bottom;
   background-attachment: fixed;
+  background-size: cover;
 }
 .inner_banner {
   min-height: calc(100vh - 74px);
