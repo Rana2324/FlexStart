@@ -84,6 +84,13 @@
   .inner_feature .feature_content_area {
     flex-basis: 100%;
   }
+  .inner_pricing {
+    flex-wrap: wrap;
+    row-gap: 25px;
+  }
+  .inner_pricing .pricing_box {
+    flex-basis: 48%;
+  }
 }
 @media screen and (max-width: 768px) {
   .about_details {
@@ -121,13 +128,16 @@
   .feature_wrapper .feature_details .feature_box {
     flex-basis: 100%;
   }
-  /* .inner_feature .feature_content_img_area {
+
+  .inner_feature .feature_content_area .content_area_box {
     flex-basis: 100%;
   }
-  .inner_feature .feature_content_area .content_area_box {
-    flex-basis: 100%;
-  } */
-  .inner_feature .feature_content_area .content_area_box {
+  .inner_pricing {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 25px;
+  }
+  .inner_pricing .pricing_box {
     flex-basis: 100%;
   }
 }

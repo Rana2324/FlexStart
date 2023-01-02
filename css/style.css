@@ -518,7 +518,7 @@ nav ul li a:hover {
   text-align: center;
 }
 
-.inner_feature {
+#third_feature .inner_feature {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -678,4 +678,109 @@ nav ul li a:hover {
 }
 .inner_service .service_box:nth-child(6) {
   border-bottom: 3px solid #f51f9c;
+}
+
+/* pricing style section */
+
+#pricing {
+}
+#pricing .container {
+}
+#pricing .container h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: #4154f1;
+  text-transform: uppercase;
+  text-align: center;
+}
+#pricing .container p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #012970;
+  text-align: center;
+}
+.inner_pricing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2%;
+  margin-top: 25px;
+}
+.inner_pricing .pricing_box {
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+  flex-basis: 22%;
+  max-width: 500px;
+}
+.inner_pricing .pricing_box h3 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.inner_pricing .pricing_box h3:nth-child(1) {
+  color: #07d5c0;
+}
+.inner_pricing .pricing_box h3:nth-child(2) {
+  color: #65c600;
+}
+.inner_pricing .pricing_box h3:nth-child(3) {
+  color: #ff901c;
+}
+.inner_pricing .pricing_box h3:nth-child(4) {
+  color: #ff0071;
+}
+
+.inner_pricing .pricing_box .price {
+}
+.inner_pricing .pricing_box .image {
+}
+.inner_pricing .pricing_box .image img {
+  width: 100%;
+  margin: 25px;
+}
+.inner_pricing .pricing_box ul {
+  padding: 0;
+  list-style: none;
+  color: #444444;
+  text-align: center;
+  line-height: 26px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+.inner_pricing .pricing_box ul li {
+  padding-bottom: 10px;
+}
+.inner_pricing .pricing_box .button_container {
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  color: #4154f1;
+  transition: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 1px solid #4154f1;
+}
+.inner_pricing .pricing_box .button_container button {
+  border: none;
+  background: none;
+}
+.inner_pricing .pricing_box .button_container:hover {
+  background: #4154f1;
+}
+.inner_pricing .pricing_box .button_container:hover button {
+  color: #fff;
 }
