@@ -60,6 +60,7 @@ header {
   position: sticky;
   top: 0;
   background: white;
+  z-index: 100;
 }
 .inner_header {
   height: 74px;
@@ -611,12 +612,14 @@ nav ul li a:hover {
   transition: 0.3s;
   border-radius: 5px;
   flex-basis: 30%;
+  max-height: 417px;
+  margin-top: 25px;
 }
 .inner_service .service_box .icons {
   color: #2db6fa;
   background: #dbf3fe;
   font-size: 36px;
-  padding: 40px 20px;
+  padding: 20px 20px;
   border-radius: 4px;
   position: relative;
   margin-bottom: 25px;
@@ -655,12 +658,51 @@ nav ul li a:hover {
 }
 .inner_service .service_box:nth-child(1):hover {
   background: #2db6fa;
-  color: white;
 }
+.inner_service .service_box:nth-child(2):hover {
+  background: #f68c09;
+}
+.inner_service .service_box:nth-child(3):hover {
+  background: #08da4e;
+}
+.inner_service .service_box:nth-child(4):hover {
+  background: #e9222c;
+}
+.inner_service .service_box:nth-child(5):hover {
+  background: #b50edf;
+}
+.inner_service .service_box:nth-child(6):hover {
+  background: #f51f9c;
+}
+
 .inner_service .service_box:nth-child(1):hover p,
 .inner_service .service_box:nth-child(1):hover h3,
 .inner_service .service_box:nth-child(1):hover a {
-  background: #2db6fa;
+  color: white;
+}
+.inner_service .service_box:nth-child(2):hover p,
+.inner_service .service_box:nth-child(2):hover h3,
+.inner_service .service_box:nth-child(2):hover a {
+  color: white;
+}
+.inner_service .service_box:nth-child(3):hover p,
+.inner_service .service_box:nth-child(3):hover h3,
+.inner_service .service_box:nth-child(3):hover a {
+  color: white;
+}
+.inner_service .service_box:nth-child(4):hover p,
+.inner_service .service_box:nth-child(4):hover h3,
+.inner_service .service_box:nth-child(4):hover a {
+  color: white;
+}
+.inner_service .service_box:nth-child(5):hover p,
+.inner_service .service_box:nth-child(5):hover h3,
+.inner_service .service_box:nth-child(5):hover a {
+  color: white;
+}
+.inner_service .service_box:nth-child(6):hover p,
+.inner_service .service_box:nth-child(6):hover h3,
+.inner_service .service_box:nth-child(6):hover a {
   color: white;
 }
 
@@ -722,7 +764,12 @@ nav ul li a:hover {
   transition: 0.3s;
   flex-basis: 22%;
   max-width: 500px;
+  transition: all 0.3s;
 }
+.inner_pricing .pricing_box:hover {
+  transform: scale(1.1);
+}
+
 .inner_pricing .pricing_box h3 {
   font-weight: 700;
   font-size: 18px;
@@ -733,6 +780,17 @@ nav ul li a:hover {
 }
 .inner_pricing .pricing_box h3:nth-child(2) {
   color: #65c600;
+}
+.inner_pricing .pricing_box:nth-child(2)::after {
+  content: " Featured";
+  background: rgb(65, 84, 241);
+  color: rgb(255, 255, 255);
+  padding: 3px 13px;
+  font-size: 12px;
+  position: absolute;
+  top: 12px;
+  right: -14px;
+  transform: rotate(45deg);
 }
 .inner_pricing .pricing_box h3:nth-child(3) {
   color: #ff901c;
@@ -747,7 +805,7 @@ nav ul li a:hover {
 }
 .inner_pricing .pricing_box .image img {
   width: 100%;
-  margin: 25px;
+  margin: 25px 0;
 }
 .inner_pricing .pricing_box ul {
   padding: 0;
@@ -777,10 +835,12 @@ nav ul li a:hover {
 .inner_pricing .pricing_box .button_container button {
   border: none;
   background: none;
+  cursor: pointer;
 }
 .inner_pricing .pricing_box .button_container:hover {
   background: #4154f1;
 }
+
 .inner_pricing .pricing_box .button_container:hover button {
   color: #fff;
 }
