@@ -75,6 +75,15 @@
   .inner_second_feature .img_area {
     flex-basis: 100%;
   }
+  .inner_feature {
+    flex-wrap: wrap;
+  }
+  .inner_feature .feature_content_img_area {
+    flex-basis: 100%;
+  }
+  .inner_feature .feature_content_area {
+    flex-basis: 100%;
+  }
 }
 @media screen and (max-width: 768px) {
   .about_details {
@@ -110,6 +119,15 @@
     flex-basis: 100%;
   }
   .feature_wrapper .feature_details .feature_box {
+    flex-basis: 100%;
+  }
+  /* .inner_feature .feature_content_img_area {
+    flex-basis: 100%;
+  }
+  .inner_feature .feature_content_area .content_area_box {
+    flex-basis: 100%;
+  } */
+  .inner_feature .feature_content_area .content_area_box {
     flex-basis: 100%;
   }
 }

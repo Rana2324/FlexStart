@@ -510,66 +510,57 @@ nav ul li a:hover {
 
 #third_feature {
 }
-.inner_third_feature {
-}
-.inner_third_feature h3 {
+.container h3 {
   color: #012970;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 20px;
   text-align: center;
 }
-.inner_third_feature .feature_content {
+
+.inner_feature {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.inner_third_feature .feature_content .feature_content_img_area {
-  flex-basis: 50%;
+.inner_feature .feature_content_img_area {
+  flex-basis: 30%;
 }
-.inner_third_feature .feature_content .feature_content_img_area img {
+.inner_feature .feature_content_img_area img {
   width: 100%;
 }
-.inner_third_feature .feature_content .feature_content_area {
+.inner_feature .feature_content_area {
   display: flex;
   align-items: center;
-  flex-basis: 50%;
+  justify-content: space-between;
+  flex-basis: 70%;
   flex-wrap: wrap;
-  gap: 2%;
 }
-.inner_third_feature .feature_content .feature_content_area .content_area_box {
+.inner_feature .feature_content_area .content_area_box {
   display: flex;
   align-items: center;
-  flex-basis: 47%;
+  justify-content: space-between;
+  flex-basis: 45%;
+  flex-wrap: wrap;
+  margin: 10px;
 }
-.inner_third_feature
-  .feature_content
-  .feature_content_area
-  .content_area_box
-  .box_area {
+.inner_feature .feature_content_area .content_area_box .box {
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
-.inner_third_feature
-  .feature_content
-  .feature_content_area
-  .content_area_box
-  .icons {
+
+.feature_content_area .content_area_box .icons {
 }
-.inner_third_feature
-  .feature_content
-  .feature_content_area
-  .content_area_box
-  .icons
-  i {
+
+.feature_content_area .content_area_box .icons i {
   font-size: 44px;
   line-height: 44px;
   color: #0245bc;
   margin-right: 15px;
 }
-.inner_third_feature
-  .feature_content
-  .feature_content_area
-  .content_area_box
-  h4 {
+
+.feature_content .feature_content_area .content_area_box .content_box h4 {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
@@ -579,7 +570,112 @@ nav ul li a:hover {
   .feature_content
   .feature_content_area
   .content_area_box
+  .content_box
   p {
   font-size: 15px;
   color: #848484;
+}
+/* service style */
+#service {
+}
+#service .container h4 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: #4154f1;
+  text-transform: uppercase;
+  text-align: center;
+}
+#service .container h2 {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #012970;
+  text-align: center;
+}
+#service .container .inner_service {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+.inner_service .service_box {
+  box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+  height: 100%;
+  padding: 60px 30px;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 5px;
+  flex-basis: 30%;
+}
+.inner_service .service_box .icons {
+  color: #2db6fa;
+  background: #dbf3fe;
+  font-size: 36px;
+  padding: 40px 20px;
+  border-radius: 4px;
+  position: relative;
+  margin-bottom: 25px;
+  display: inline-block;
+  line-height: 0;
+  transition: 0.3s;
+}
+.inner_service .service_box .icons i {
+}
+.inner_service .service_box h3 {
+  color: #444444;
+  font-weight: 700;
+}
+.inner_service .service_box p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.inner_service .service_box .read_more {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 20px;
+}
+.inner_service .service_box .read_more span {
+}
+.inner_service .service_box .read_more i {
+  line-height: 0;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.inner_service .service_box:nth-child(1) {
+  border-bottom: 3px solid #2db6fa;
+}
+.inner_service .service_box:nth-child(1):hover {
+  background: #2db6fa;
+  color: white;
+}
+.inner_service .service_box:nth-child(1):hover p,
+.inner_service .service_box:nth-child(1):hover h3,
+.inner_service .service_box:nth-child(1):hover a {
+  background: #2db6fa;
+  color: white;
+}
+
+.inner_service .service_box:nth-child(2) {
+  border-bottom: 3px solid #f68c09;
+}
+.inner_service .service_box:nth-child(3) {
+  border-bottom: 3px solid #08da4e;
+}
+.inner_service .service_box:nth-child(4) {
+  border-bottom: 3px solid #e9222c;
+}
+.inner_service .service_box:nth-child(5) {
+  border-bottom: 3px solid #b50edf;
+}
+.inner_service .service_box:nth-child(6) {
+  border-bottom: 3px solid #f51f9c;
 }
