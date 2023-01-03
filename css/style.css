@@ -844,3 +844,135 @@ nav ul li a:hover {
 .inner_pricing .pricing_box .button_container:hover button {
   color: #fff;
 }
+
+/* question section style */
+#question {
+}
+#question .container {
+}
+#question .container h4 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0px;
+  color: rgb(65, 84, 241);
+  text-transform: uppercase;
+  text-align: center;
+}
+#question .container h2 {
+  margin: 10px 0px 0px;
+  padding: 0px;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 700;
+  color: rgb(1, 41, 112);
+  text-align: center;
+}
+#question .container .inner_question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 25px;
+}
+#question .container .inner_question .left_side_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 50%;
+}
+#question .container .inner_question .left_side_content .text {
+}
+#question .container .inner_question .left_side_content .text p {
+}
+#question .container .inner_question .left_side_content .icons {
+}
+#question .container .inner_question .left_side_content .icons i {
+}
+#question .container .inner_question .right_side_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 50%;
+}
+#question .container .inner_question .right_side_content .text {
+}
+#question .container .inner_question .right_side_content .text p {
+}
+#question .container .inner_question .right_side_content .icons {
+}
+#question .container .inner_question .right_side_content .icons i {
+}
+
+/* blog section style */
+#blog {
+}
+#blog .container {
+}
+#blog .container h4 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0px;
+  color: rgb(65, 84, 241);
+  text-transform: uppercase;
+  text-align: center;
+}
+#blog .container h2 {
+  margin: 10px 0px 0px;
+  padding: 0px;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 700;
+  color: rgb(1, 41, 112);
+  text-align: center;
+}
+#blog .container .inner_blog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2%;
+  margin-top: 25px;
+}
+#blog .container .inner_blog .blog_box {
+  flex-basis: 32%;
+}
+#blog .container .inner_blog .blog_box .image {
+  transition: all 0.3s;
+}
+#blog .container .inner_blog .blog_box .image img {
+  width: 100%;
+}
+#blog .container .inner_blog .blog_box .date {
+}
+#blog .container .inner_blog .blog_box .date p {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(1, 41, 112, 0.6);
+  display: block;
+  margin-bottom: 10px;
+}
+#blog .container .inner_blog .blog_box .text p {
+  font-size: 24px;
+  color: rgb(1, 41, 112);
+  font-weight: 700;
+  margin-bottom: 18px;
+  position: relative;
+}
+#blog .container .inner_blog .blog_box:hover {
+}
+#blog .container .inner_blog .blog_box:hover,
+#blog .container .inner_blog .blog_box:hover .text p {
+  color: #717ff5;
+}
+#blog .container .inner_blog .blog_box:hover,
+#blog .container .inner_blog .blog_box:hover .image {
+  transform: rotate(5deg);
+}
+
+#blog .container .inner_blog .blog_box .read_more a {
+  color: rgb(65, 84, 241);
+  line-height: 0;
+  margin-left: 4px;
+  font-size: 18px;
+}

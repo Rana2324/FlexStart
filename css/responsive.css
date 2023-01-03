@@ -99,6 +99,12 @@
   .inner_pricing .pricing_box {
     flex-basis: 48%;
   }
+  #blog .container .inner_blog {
+    flex-wrap: wrap;
+  }
+  #blog .container .inner_blog .blog_box {
+    flex-basis: 100%;
+  }
 }
 @media screen and (max-width: 768px) {
   .about_details {
@@ -119,6 +125,12 @@
     justify-content: center;
   }
   .inner_service .service_box {
+    flex-basis: 100%;
+  }
+  #blog .container .inner_blog {
+    flex-wrap: wrap;
+  }
+  #blog .container .inner_blog .blog_box {
     flex-basis: 100%;
   }
 }
@@ -155,4 +167,11 @@
   .inner_pricing .pricing_box {
     flex-basis: 100%;
   }
+  #blog .container .inner_blog {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+#blog .container .inner_blog .blog_box {
+  flex-basis: 100%;
 }
