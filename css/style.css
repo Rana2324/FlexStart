@@ -875,10 +875,16 @@ nav ul li a:hover {
 
   margin-top: 25px;
 }
-#question .container .inner_question .left_side_content {
+#question .container .inner_question .left_side_content .content {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-right: 25px;
+  border-bottom: 1px solid rgb(238, 233, 233);
+}
+
+#question .container .inner_question .left_side_content {
   flex-basis: 50%;
 }
 #question .container .inner_question .left_side_content .text {
@@ -890,14 +896,18 @@ nav ul li a:hover {
 #question .container .inner_question .left_side_content .icons i {
 }
 #question .container .inner_question .right_side_content {
+  flex-basis: 50%;
+}
+#question .container .inner_question .right_side_content .content {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-basis: 50%;
+  justify-content: space-between;
+  margin: 10px 0px;
+  border-bottom: 1px solid rgb(238, 233, 233);
 }
 #question .container .inner_question .right_side_content .text {
 }
-#question .container .inner_question .right_side_content .text p {
+#question .container .inner_question .right_side_content .text h5 {
 }
 #question .container .inner_question .right_side_content .icons {
 }
@@ -938,10 +948,10 @@ nav ul li a:hover {
   flex-basis: 32%;
 }
 #blog .container .inner_blog .blog_box .image {
-  transition: all 0.3s;
 }
 #blog .container .inner_blog .blog_box .image img {
   width: 100%;
+  transition: transform 0.5s;
 }
 #blog .container .inner_blog .blog_box .date {
 }
@@ -961,13 +971,11 @@ nav ul li a:hover {
 }
 #blog .container .inner_blog .blog_box:hover {
 }
-#blog .container .inner_blog .blog_box:hover,
 #blog .container .inner_blog .blog_box:hover .text p {
   color: #717ff5;
 }
-#blog .container .inner_blog .blog_box:hover,
-#blog .container .inner_blog .blog_box:hover .image {
-  transform: rotate(5deg);
+#blog .container .inner_blog .blog_box:hover .image img {
+  transform: scale(1.1) rotate(2deg);
 }
 
 #blog .container .inner_blog .blog_box .read_more a {

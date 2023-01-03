@@ -99,6 +99,16 @@
   .inner_pricing .pricing_box {
     flex-basis: 48%;
   }
+  #question .container .inner_question {
+    flex-wrap: wrap;
+  }
+  #question .container .inner_question .left_side_content {
+    flex-basis: 100%;
+  }
+  #question .container .inner_question .right_side_content {
+    flex-basis: 100%;
+  }
+
   #blog .container .inner_blog {
     flex-wrap: wrap;
   }
