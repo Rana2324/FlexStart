@@ -111,7 +111,12 @@
   #question .container .inner_question .right_side_content {
     flex-basis: 100%;
   }
-
+  #team .container .inner_container {
+    flex-wrap: wrap;
+  }
+  #team .container .inner_container .team_box {
+    flex-basis: 100%;
+  }
   #blog .container .inner_blog {
     flex-wrap: wrap;
   }
