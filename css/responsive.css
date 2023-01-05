@@ -102,6 +102,9 @@
   #question .container .inner_question {
     flex-wrap: wrap;
   }
+  #question .container .inner_question .left_side_content .content {
+    margin-right: 0px;
+  }
   #question .container .inner_question .left_side_content {
     flex-basis: 100%;
   }
