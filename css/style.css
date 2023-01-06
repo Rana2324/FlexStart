@@ -1119,6 +1119,7 @@ nav ul li a:hover {
 #footer1 {
   background-image: url("https://bootstrapmade.com/demo/templates/FlexStart/assets/img/footer-bg.png");
   background-repeat: no-repeat;
+  background-position: center right;
 }
 #footer1 .container {
 }
