@@ -111,6 +111,14 @@
   #question .container .inner_question .right_side_content {
     flex-basis: 100%;
   }
+
+  #portfolio .container .inner_container {
+    flex-wrap: wrap;
+  }
+  #portfolio .container .inner_container .card {
+    flex-basis: 48%;
+  }
+
   #team .container .inner_container {
     flex-wrap: wrap;
   }
@@ -165,6 +173,14 @@
   .inner_service .service_box {
     flex-basis: 100%;
   }
+  #portfolio .container .inner_container {
+    flex-wrap: wrap;
+
+    justify-content: center;
+  }
+  #portfolio .container .inner_container .card {
+    flex-basis: 48%;
+  }
   #blog .container .inner_blog {
     flex-wrap: wrap;
   }
@@ -203,6 +219,14 @@
     row-gap: 25px;
   }
   .inner_pricing .pricing_box {
+    flex-basis: 100%;
+  }
+
+  #portfolio .container .inner_container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #portfolio .container .inner_container .card {
     flex-basis: 100%;
   }
   #blog .container .inner_blog {
