@@ -1011,6 +1011,27 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
 }
+#portfolio .container .inner_container .card .image .portfolio_info::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  border-bottom: 1px solid rgb(205, 200, 200);
+  border-right: 1px solid rgb(205, 200, 200);
+  bottom: 30px;
+  right: 30px;
+  position: absolute;
+}
+#portfolio .container .inner_container .card .image .portfolio_info::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  border-top: 1px solid rgb(205, 200, 200);
+  border-left: 1px solid rgb(205, 200, 200);
+  left: 30px;
+  top: 30px;
+  position: absolute;
+}
+
 #portfolio .container .inner_container .card .image:hover .portfolio_info {
   opacity: 1;
 }
@@ -1098,6 +1119,8 @@ nav ul li a:hover {
 #team .container .inner_container .team_box {
   flex-basis: 23%;
   transition: 0.3s;
+  overflow: hidden;
+  padding: 20px;
 }
 #team .container .inner_container .team_box:hover {
   transform: scale(1.08);
